@@ -1,0 +1,42 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+}
+.moi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+   
+
+button{ 
+    border-radius: 15px;
+    color: white;}
+    .photo{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .mine{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+.carte{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  
+}
+.maclass{
+    background-color: rgb(127, 127, 220);
+}
+.monclass{
+    background-color: rgb(121, 127, 220);
+}
