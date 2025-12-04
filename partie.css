@@ -4,6 +4,10 @@
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0px ;
+    margin-right: 0px;
 
 }
 .moi{
@@ -16,8 +20,10 @@
    
 
 button{ 
-    border-radius: 15px;
-    color: white;}
+    border-radius: 20px;
+
+    color: white;
+}
     .photo{
         display: flex;
         flex-direction: row;
@@ -26,17 +32,149 @@ button{
     .mine{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
     }
 .carte{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 40px;
+    overflow:scroll;
+
+   
   
+}
+.carte div{
+    padding: 20px;
 }
 .maclass{
     background-color: rgb(127, 127, 220);
+    border-radius: 20px;
+    width: 200px;
+    
 }
 .monclass{
     background-color: rgb(121, 127, 220);
+     border-radius: 20px;
+     width: 200px;
+}
+.lastcla{
+     background-color: rgb(121, 127, 220);
+     border-radius: 20px;
+     width: 200px;
+
+}
+.asma{display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+.titre{ display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+.titre2{
+     display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+body{
+    background-color:aliceblue
+}
+
+.me{
+    height: 500px;
+    width: 100%;
+}
+.second-img{
+    width: 100%;
+    height: 500px;
+}
+footer {
+            background-color: #1a2742;
+            color: #ffffff;
+            padding: 60px 40px 40px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+            position: relative;
+        }
+
+        .footer-column h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column ul li a {
+            color: #b8c5d6;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column ul li a:hover {
+            color: #ffffff;
+        }
+
+        .social-icons {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            font-size: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+.offer {
+    text-align: center;
+    padding: 60px;
+
+}
+
+.offer-box {
+    width: 40%;
+    margin: auto;
+    background: #90d5e5;
+    padding: 30px;
+    border-radius: 20px;
+}
+.essai{
+   background-color: rgb(47, 35, 108);
+   color: rgb(124, 37, 238);
+   width: 200px;
+   height: 30px;
+   position: relative;
+   top: 10px;
+   left: 550px;
+   border-radius: 15px;
+}
+
+
+.small-text {
+    font-size: 12px;
+    margin: 10px 0;
 }
